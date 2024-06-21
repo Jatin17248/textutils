@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class Newsitem extends Component {
     render() {
-        console.log(this.props);
+        
     let {headline, description, imageUrl, newsUrl} = this.props;
     return (
       <div>
